@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    128371,       3118]
-NotebookOptionsPosition[    120241,       2981]
-NotebookOutlinePosition[    120644,       2997]
-CellTagsIndexPosition[    120601,       2994]
+NotebookDataLength[    128417,       3118]
+NotebookOptionsPosition[    120287,       2981]
+NotebookOutlinePosition[    120690,       2997]
+CellTagsIndexPosition[    120647,       2994]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2296,7 +2296,7 @@ Cell[CellGroupData[{
 
 Cell[BoxData[{
  RowBox[{
-  RowBox[{"gaugeops", "=", 
+  RowBox[{"checkops", "=", 
    RowBox[{"ConstantArray", "[", 
     RowBox[{"0", ",", 
      RowBox[{"{", 
@@ -2308,12 +2308,12 @@ Cell[BoxData[{
     RowBox[{
      RowBox[{
       RowBox[{
-       RowBox[{"gaugeops", "[", 
+       RowBox[{"checkops", "[", 
         RowBox[{"[", "i", "]"}], "]"}], "[", 
        RowBox[{"[", "1", "]"}], "]"}], "=", "1"}], ";", 
      RowBox[{
       RowBox[{
-       RowBox[{"gaugeops", "[", 
+       RowBox[{"checkops", "[", 
         RowBox[{"[", 
          RowBox[{"i", "+", "18"}], "]"}], "]"}], "[", 
        RowBox[{"[", "1", "]"}], "]"}], "=", "1"}]}], "}"}], ",", 
@@ -2327,12 +2327,12 @@ Cell[BoxData[{
     RowBox[{
      RowBox[{
       RowBox[{
-       RowBox[{"gaugeops", "[", 
+       RowBox[{"checkops", "[", 
         RowBox[{"[", "i", "]"}], "]"}], "[", 
        RowBox[{"[", "2", "]"}], "]"}], "=", "1"}], ";", 
      RowBox[{
       RowBox[{
-       RowBox[{"gaugeops", "[", 
+       RowBox[{"checkops", "[", 
         RowBox[{"[", 
          RowBox[{"i", "+", "18"}], "]"}], "]"}], "[", 
        RowBox[{"[", "2", "]"}], "]"}], "=", "1"}]}], "}"}], ",", 
@@ -2346,12 +2346,12 @@ Cell[BoxData[{
     RowBox[{
      RowBox[{
       RowBox[{
-       RowBox[{"gaugeops", "[", 
+       RowBox[{"checkops", "[", 
         RowBox[{"[", "i", "]"}], "]"}], "[", 
        RowBox[{"[", "3", "]"}], "]"}], "=", "1"}], ";", 
      RowBox[{
       RowBox[{
-       RowBox[{"gaugeops", "[", 
+       RowBox[{"checkops", "[", 
         RowBox[{"[", 
          RowBox[{"i", "+", "18"}], "]"}], "]"}], "[", 
        RowBox[{"[", "3", "]"}], "]"}], "=", "1"}]}], "}"}], ",", 
@@ -2363,7 +2363,7 @@ Cell[BoxData[{
   RowBox[{
    RowBox[{
     RowBox[{
-     RowBox[{"gaugeops", "[", 
+     RowBox[{"checkops", "[", 
       RowBox[{"[", "i", "]"}], "]"}], "[", 
      RowBox[{"[", "4", "]"}], "]"}], "=", "1"}], ",", 
    RowBox[{"{", 
@@ -2374,7 +2374,7 @@ Cell[BoxData[{
   RowBox[{
    RowBox[{
     RowBox[{
-     RowBox[{"gaugeops", "[", 
+     RowBox[{"checkops", "[", 
       RowBox[{"[", "i", "]"}], "]"}], "[", 
      RowBox[{"[", "5", "]"}], "]"}], "=", "1"}], ",", 
    RowBox[{"{", 
@@ -2386,7 +2386,7 @@ Cell[BoxData[{
   RowBox[{
    RowBox[{
     RowBox[{
-     RowBox[{"gaugeops", "[", 
+     RowBox[{"checkops", "[", 
       RowBox[{"[", "i", "]"}], "]"}], "[", 
      RowBox[{"[", "6", "]"}], "]"}], "=", "1"}], ",", 
    RowBox[{"{", 
@@ -2398,7 +2398,7 @@ Cell[BoxData[{
   RowBox[{
    RowBox[{
     RowBox[{
-     RowBox[{"gaugeops", "[", 
+     RowBox[{"checkops", "[", 
       RowBox[{"[", "i", "]"}], "]"}], "[", 
      RowBox[{"[", "7", "]"}], "]"}], "=", "1"}], ",", 
    RowBox[{"{", 
@@ -2410,7 +2410,7 @@ Cell[BoxData[{
   RowBox[{
    RowBox[{
     RowBox[{
-     RowBox[{"gaugeops", "[", 
+     RowBox[{"checkops", "[", 
       RowBox[{"[", "i", "]"}], "]"}], "[", 
      RowBox[{"[", "8", "]"}], "]"}], "=", "1"}], ",", 
    RowBox[{"{", 
@@ -2423,7 +2423,7 @@ Cell[BoxData[{
    RowBox[{
     RowBox[{
      RowBox[{
-      RowBox[{"gaugeops", "[", 
+      RowBox[{"checkops", "[", 
        RowBox[{"[", "i", "]"}], "]"}], "[", 
       RowBox[{"[", "9", "]"}], "]"}], "=", "1"}], ",", 
     RowBox[{"{", 
@@ -2636,7 +2636,7 @@ Cell[BoxData[{
  RowBox[{
   RowBox[{"{", 
    RowBox[{
-    RowBox[{"gaugeops", "//", "display2"}], ",", 
+    RowBox[{"checkops", "//", "display2"}], ",", 
     RowBox[{"insidestabs", "//", "display2"}], ",", 
     RowBox[{"outsidestabs", "//", "display2"}], ",", 
     RowBox[{"insideoutsideconnectstabs", "//", "display2"}]}], "}"}], 
@@ -2645,7 +2645,7 @@ Cell[BoxData[{
   RowBox[{"ISGcolorcode0", "=", 
    RowBox[{"Join", "[", 
     RowBox[{
-    "gaugeops", ",", "insidestabs", ",", "outsidestabs", ",", 
+    "checkops", ",", "insidestabs", ",", "outsidestabs", ",", 
      "insideoutsideconnectstabs", ",", "2"}], "]"}]}], ";", 
   RowBox[{"ISGcolorcode0", "//", "display2"}], ";", 
   RowBox[{
@@ -2664,8 +2664,8 @@ Cell[BoxData[{
  CellChangeTimes->{{3.87312864794044*^9, 3.87312869356536*^9}, {
   3.873128821310506*^9, 3.8731288443883905`*^9}, {3.8731292355494175`*^9, 
   3.8731292398712826`*^9}, {3.8897234088694*^9, 3.88972354771931*^9}, {
-  3.889723952040434*^9, 
-  3.889723956116264*^9}},ExpressionUUID->"09703962-5c7c-4530-9840-\
+  3.889723952040434*^9, 3.889723956116264*^9}, {3.899286521831027*^9, 
+  3.899286521905035*^9}},ExpressionUUID->"09703962-5c7c-4530-9840-\
 87143f12008d"],
 
 Cell[BoxData["True"], "Output",
@@ -3112,12 +3112,12 @@ Cell[94560, 2258, 751, 22, 28, "Input",ExpressionUUID->"2ba32d16-f6fc-44e5-8696-
 Cell[CellGroupData[{
 Cell[95360, 2286, 318, 6, 53, "Section",ExpressionUUID->"a27d840d-5ecf-47ed-bb1d-9a2b0434322e"],
 Cell[CellGroupData[{
-Cell[95703, 2296, 11273, 372, 1774, "Input",ExpressionUUID->"09703962-5c7c-4530-9840-87143f12008d"],
-Cell[106979, 2670, 181, 3, 32, "Output",ExpressionUUID->"09723cc7-2ff9-41c0-b39a-381c3f0bfc50"]
+Cell[95703, 2296, 11319, 372, 1774, "Input",ExpressionUUID->"09703962-5c7c-4530-9840-87143f12008d"],
+Cell[107025, 2670, 181, 3, 32, "Output",ExpressionUUID->"09723cc7-2ff9-41c0-b39a-381c3f0bfc50"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[107197, 2678, 7969, 197, 276, "Input",ExpressionUUID->"ca402ce4-319b-4368-a94c-18685f560ee9"],
-Cell[115169, 2877, 5044, 100, 700, "Output",ExpressionUUID->"7ad1a648-5fa8-4e98-b10d-2d48e311b5e9"]
+Cell[107243, 2678, 7969, 197, 276, "Input",ExpressionUUID->"ca402ce4-319b-4368-a94c-18685f560ee9"],
+Cell[115215, 2877, 5044, 100, 700, "Output",ExpressionUUID->"7ad1a648-5fa8-4e98-b10d-2d48e311b5e9"]
 }, Open  ]]
 }, Open  ]]
 }
