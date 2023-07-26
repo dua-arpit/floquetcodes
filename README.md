@@ -6,6 +6,6 @@ We use the rewinding schedule GBRBGR for the 3D Floquet toric code. In both the 
 
 For the 3D Floquet fermionic toric code, we write the circuits to map the ISG of the first round to a canonical form of the 3D fermionic toric code. The other ISGs are related by the symmetry of the 3D trivalent lattice on which we define the code. 
 
-For the Floquet color code, we write the circuits to map the ISGs of two of the rounds since the other rounds are related to these two by symmetry. 
+For the Floquet color code, we write the circuits to map the ISGs of two of the rounds since the other rounds are related to these two by symmetry. We also include the circuit for a parent stabilizer code which is equivalent to four copies of toric code; this is for a possible condensation picture of the Floquet color code. 
 
 
